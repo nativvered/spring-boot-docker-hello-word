@@ -13,7 +13,7 @@ public class SampleController {
     @ResponseBody
     @RequestMapping(value = "/")
     String home(){
-        return "Hello Docker World  ";
+        return "Hello Docker World !!!  ";
     }
 
     public static void main(String[] args) {
